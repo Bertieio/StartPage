@@ -15,20 +15,27 @@ body{
 }
 
 .links{
+	position: relative;
 	border-style: solid;
 	border-width: 7.5px;
 	width: 95px;
 	height: 95px;
+	float: left;
 	font-weight: 700;
 	font-size: 60px;
 	text-align: right;
+	display: inline-block;
 	vertical-align: bottom;
-	display: table-cell;
 	padding: 5px;
 	text-decoration: none;
-	margin: 100px
+	margin: 5px
 }
 
+.linkText{
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
 .Spacer{
 	display: inline;
 	width: 10px;
@@ -38,7 +45,8 @@ body{
 .linkBox{
 	position: fixed;
 	top: 150px;
-	left: 8%; 
+	left: 8%;
+        width: 65%;	
 	float: left;
 }
 
@@ -61,10 +69,9 @@ body{
 	position: fixed;
 	font-size: 100px;
 	float: right;
-	margin-right: 60px;
 	color: #a6a6a6;
 	top: 60px;
-	right: 0;
+	right: 5%;
 
 }
 
@@ -73,5 +80,5 @@ body{
 	float: right;
 	color: #a6a6a6;
 	top: 160px;
-	right: 55px;
-}
+	right: 5%;
+
