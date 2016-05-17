@@ -1,6 +1,6 @@
 function startTime(){
 	var today = new Date();
-	var h = today.getHours();
+	var h = checkTime(today.getHours());
 	var m = checkTime(today.getMinutes());
 	var s = checkTime(today.getSeconds());
         var d = today.getDate();
